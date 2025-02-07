@@ -3,6 +3,7 @@ const connectDB = require("./config/database.js");
 const app = express();
 const cookieParser = require("cookie-parser"); //user for reading cookies
 const cors = require("cors");
+require("dotenv").config();
 
 // const corsOptions = {
 //   origin: 'http://localhost:5173',
